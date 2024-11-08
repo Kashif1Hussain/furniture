@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/tada.css">
+  
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css"
+    integrity="sha512-CB+XYxRC7cXZqO/8cP3V+ve2+6g6ynOnvJD6p4E4y3+wwkScH9qEOla+BTHzcwB4xKgvWn816Iv0io5l3rAOBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>furniture.com</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top header lg-screen">
+    <div class="container-fluid">
+      <a class="nav-link px-2 me-3 basket-button  navigation-bar" href="#" tabindex="-1" style="position: relative;">
+        <!-- <i class="fa fa-shopping-basket"></i> -->
+        <img src="assets/img/card.svg" class="cart-img ">
+        <span class="cart-count">0</span>
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo.png" class="image-logo logo animated tada" alt="">
+      </a>
+     
+
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item navigation-bar">
+            <a class="nav-link px-4 navigation-bar button-banner" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link px-4 navigation-bar button-banner" href="#" tabindex="-1">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 navigation-bar button-banner" href="#" tabindex="-1">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link px-4 navigation-bar button-banner" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+              Page
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="drop-btns"><a class="dropdown-item my-2 btns-anchor"  href="#">Login</a></li>
+              <li class="drop-btns"><a class="dropdown-item my-2 btns-anchor"  href="#">Card</a></li>
+              <li class="drop-btns"><a class="dropdown-item my-2 btns-anchor"  href="#">Categories</a></li>
+              <li class="drop-btns"><a class="dropdown-item my-2 btns-anchor"  href="#">CheckOut</a></li>
+              <li class="drop-btns"><a class="dropdown-item my-2 btns-anchor"  href="#">Product Details</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 navigation-bar button-banner" href="#" tabindex="-1">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 navigation-bar button-banner" href="#" tabindex="-1">Contact</a>
+          </li>
+        </ul>
+        
+        <form class="d-flex ">
+          <input class="form-control search-box" type="search" placeholder="Search Products" aria-label="Search">
+          <button class="btn   search-btn" type="submit"><i class="fa fa-search search-btn2"></i></button>
+        </form>
+        
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-3 navigation-bar account mt-3" href="#" tabindex="-1">My Account</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <a class="nav-link text-end px-2 me-3  navigation-bar" href="#" tabindex="-1" style="position: relative;">
+                <!-- <i class="fa fa-shopping-basket"></i> -->
+                <img src="assets/img/card.svg" class="cart-img ">
+                <span class="cart-count float-end">0</span>
+              </a>
+            </button>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+  <div class="header sm-screen">
+<div class="row">
+<div class="col-4 px-4 d-flex align-items-center">
+  <a  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+    <img src="assets/img/main-menu.png" style="width: 25px;">
+  </a>
+  
+</div>
+<div class="col-4 d-flex align-items-center justify-content-center">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/logo.png" class="image-logo logo animated tada" alt="">
+  </a>
+</div>
+<div class="col-4 text-end d-flex align-items-center justify-content-end">
+
+  <div>
+    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+      <a class="nav-link text-end px-2 me-3  navigation-bar" href="#" tabindex="-1" style="position: relative;">
+        <!-- <i class="fa fa-shopping-basket"></i> -->
+        <img src="assets/img/card.svg" class="cart-img ">
+        <span class="cart-count float-end">0</span>
+      </a>
+    </button>
+
+
+  </div>
+</div>
+</div>
+  </div>
+  <div>
+
+    <!-- Flickity HTML init -->
+    <div class="carousel response"  data-aos="fade-up" data-flickity='{ "wrapAround": true }'>
+      <div class="carousel-cell ">
+        <img src="assets/img/img1.jpg" class="w-100 image1" alt="">
+        <div class="hero-text p-5 card-hero">
+          <h5 class="off-text text-muted">70% Sale OFF!</h5>
+          <h1 class="heading-one ">Furniture<br> at Cost</h1>
+          <p class="mt-4 hero-desc">Suspendisse varius enim in eros<br> elementum
+            tristique. Duis cursus, mi quis<br> viverra ornare, eros
+            dolor interdum nulla</p>
+          <button class="mt-3 custom-btn btn-7"><span>Discover More</span></button>
+        </div>
+      </div>
+      <div>
+       
+
+        <div class="my-5" data-aos="fade-up">
+          <h1 class="text-center popular mt-5 mb-3" >Popular products</h1>
+          <p class="text-center ">Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra<br>
+            ornare, eros dolor interdum nulla.</p>
+
+
+        </div>
+        <div class="text-center custom-btns"  data-aos="fade-up">
+          
+          <a href="#sofa" class="button"><span  class="fs-5 buttons">sofa</span></a>
+         
+          <a href="#table" class="button"><span class="fs-5 buttons">Table</span></a>
+          <a href="#chaire" class="button"><span class="fs-5 buttons">Chair</span></a>
+          <a href="#bed" class="button"><span class="fs-5 buttons">Bed</span></a>
+          <a href="#lighting" class="button"><span class="fs-5 buttons">Lighting</span></a>
+          <a href="#decore" class="button"><span class="fs-5 buttons">Decore</span></a>
+          </div>
+          <div class="container-fluid"  data-aos="fade-up">
+            <div class="row mt-5">
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <img src="assets/img/sofa1.jpg" class="w-100 img-size" alt="">
+                <a href="" class="deco">
+                  <p class="text-center text-underline  mt-3" >Bly Microfiber / Microsuede 56" Armless Loveseat</p>
+                  </a>
+                <p class="card-text text-price mb-5">$367</p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <img src="assets/img/sofa2.jpg" class="w-100 img-size" alt="">
+                <a href="" class="deco">
+                  <p class="text-center text-underline  mt-3" >Bly Microfiber / Microsuede 56" Armless Loveseat</p>
+                  </a>
+                <p class="card-text text-price mb-5 ">$367</p>
+                
+                
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <img src="assets/img/sofa3.jpg" class="w-100 img-size " alt="">
+                <a href="" class="deco">
+                  <p class="text-center text-underline  mt-3" >Bly Microfiber / Microsuede 56" Armless Loveseat</p>
+                  </a>
+                <p class="card-text text-price mb-5">$367</p>
+              </div>
+            </div>
+
+
+          </div>
+       
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <h1>Home</h1>
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+  </div>
+<div class="my-5 text-center"  data-aos="fade-up">
+  <button class="custom-btn btn-11 "id="class" data-aos="fade-down-right">Discover More</button>
+</div>
+<div class="container-fluid footer1">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-3 colums "  data-aos="fade-up">
+      <a class="online-sprt">
+        <img src="assets/img/shipped.png" class="img-del mt-5 ms-2" alt="">
+      <p class="fs-5 fw-bold ms-2">Fast & Free Delievery</p>
+      <p class="text-muted ms-2">Free Delievery on All Orders</p>
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3  colums"  data-aos="fade-up">
+   <a href="" class="online-sprt">
+    <img src="assets/img/services2.svg" class="img-del2 ms-2 " alt="">
+    <p class="fs-5 fw-bold ms-2">Secure Payment</p>
+    <p class="text-muted ms-2">Free Delievery on All Orders</p>
+   </a>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3  colums"  data-aos="fade-up">
+      <a href="" class="online-sprt">
+        <img src="assets/img/services3.svg" class="img-del2 ms-2 " alt="">
+        <p class="fs-5 fw-bold ms-2">Money Back Guarantee</p>
+        <p class="text-muted ms-2">Free Delievery on All Orders</p>
+      </a>
+     
+    </div>
+    
+    <div class="col-12 col-sm-6 col-md-3  colums"  data-aos="fade-up">
+      <a href="" class="online-sprt">
+        <img src="assets/img/services4.svg" class="img-del2 ms-2 " alt="">
+        <p class="fs-5 fw-bold  ms-2">Online Support</p>
+        <p class="text-muted ms-2">Free Delievery on All Orders</p>
+      </a>
+      
+    </div>
+    </div>
+  </div>
+
+</div>
+<div class="container-fluid footer">
+  <div class="row">
+    <div class="col-6  col-md-3 mb-4">
+    <img src="assets/img/logo.png" class="logo-img-footer logo animated tada mt-5 ms-5" alt="">  
+    <p class="ms-5 my-3" >Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+    <a href="" class="icons"><i class="fa fa-twitter ms-5    "></i></a>
+    <a href="" class="icons"><i class="fa fa-facebook ms-2   "></i></a>
+    <a href="" class="icons"><i class="fa fa-pinterest ms-2 mb-5  "></i></a>
+
+  </div>
+    <div class="col-6  col-md-3 mb-4 footer-heading ms-5"><p class="fw-bold">Quick Links</p>
+      <div><a href="" class="footer-lin"> <p class="links-footer"></p>Image Licensin</a></div>
+      <div><a href="" class="footer-lin"> <p class="links-footer"></p>Style Guide</a></div>
+      <div><a href="" class="footer-lin"> <p class="links-footer"></p>Privacy Policy</a></div>
+      
+    </div>
+    <div class="col-6  col-md-3 mb-4 footer-heading"><p class="fw-bold">Shop Category</p>
+      <div><a href="" class="footer-lin"> <p class="links-footer"></p>Image Licensin</a></div>
+      <div><a href="" class="footer-lin"> <p class="links-footer"></p>Style Guide</a></div>
+      <div><a href="" class="footer-lin"> <p class="links-footer"></p>Privacy Policy</a></div>
+    </div>
+    <div class="col-6  col-md-2 mb-4 footer-heading"><p class="fw-bold">Pertners</p>
+      <div><a href="" class="footer-lin"> <p class="links-footer"></p>Image Licensin</a></div>
+      <div><a href="" class="footer-lin"> <p class="links-footer"></p>Style Guide</a></div>
+      <div><a href="#class" class="footer-lin"> <p class="links-footer"></p>Privacy Policy</a></div></div>
+  </div>
+
+</div>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Shopping Cart</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+ <img src="assets/img/empty-cart.png" class="w-100" alt="">
+  </div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header resposive_nav">
+    <img src="assets/img/logo.png" class="image-logo logo animated tada" alt="">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body p-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item navigation-bar">
+        <a class="nav-link px-4 navigation-bar button-banner" aria-current="page" href="#">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link px-4 navigation-bar button-banner" href="products.html" tabindex="-1">Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-4 navigation-bar button-banner" href="#" tabindex="-1">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-4 navigation-bar button-banner" href="#" tabindex="-1">Page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-4 navigation-bar button-banner" href="#" tabindex="-1">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-4 navigation-bar button-banner" href="#" tabindex="-1">Contact</a>
+      </li>
+    </ul>
+    
+  </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+<script>
+  // Get all the buttons
+  const buttons = document.querySelectorAll('.button');
+
+  // Loop through the buttons and add an event listener
+  buttons.forEach(button => {
+      button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          buttons.forEach(btn => btn.classList.remove('active'));
+
+          // Add active class to the clicked button
+          this.classList.add('active');
+      });
+  });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+</html>

@@ -1,0 +1,132 @@
+@media only screen and (max-width: 992px) {
+    .button-banner {
+        color: rgb(0, 0, 0) !important;
+    }
+.lg-screen{
+    display: none!important;
+}
+    .carousel-cell .p-5 {
+        padding: 1rem !important;
+    }
+    .cart-img {
+        width: 16px;
+    }
+    .sm-screen{
+        display: block !important;
+    }
+    .cart-count {
+        font-size: 12px !important;
+        width: 18px !important;
+        height: 18px !important;
+        line-height: 18px !important;
+        left: 16px !important;
+    }
+    .hero-text {
+        top: 3%;
+        left: 5%;
+        width: 90%;
+    }
+
+    .image1 {
+        height: 350px;
+    }
+
+    .heading-one {
+        font-size: 20px;
+    }
+
+    .hero-desc {
+        font-size: 10px;
+    }
+
+    .custom-btn {
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .popular {
+        font-size: 18px;
+    }
+
+    .text-center {
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    .buttons {
+        font-size: 10px !important;
+    }
+
+    .image4 {
+        height: 280px;
+    }
+
+    .para2 {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+
+    .color {
+        width: 50px;
+        height: 360px;
+
+    }
+
+    .heading-two {
+        font-size: 25px;
+        display: block;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .para2 {
+        padding-right: 0px !important;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        padding-left: 0%;
+        margin-right: 0px !important;
+    }
+
+    .offcanvas-end {
+      
+        width: 70% !important;
+       
+    }
+
+    .custom-search {
+        display: block !important;
+        width: 70px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .search-btn2 {
+        color: black;
+        font-size: 12px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+
+
+    }
+    .image-logo{
+      width: 74px!important;
+
+    }
+   
+    .basket-button{
+        display: block !important;
+    }
+
+
+  
+}
+
+@media only screen and (min-width: 992px) {
+    .basket-button{
+        display: none !important;
+    }
+
+
+}
